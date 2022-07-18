@@ -1,0 +1,19 @@
+echo "# nknk" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/akarim02/nknk.git
+git push -u origin main
+
+# Import required libraries
+import pandas as pd
+import dash
+import dash_html_components as html
+import dash_core_components as dcc
+from dash.dependencies import Input, Output, State
+from jupyter_dash import JupyterDash
+import plotly.graph_objects as go
+import plotly.express as px
+from dash import no_update
+
